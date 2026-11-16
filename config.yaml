@@ -7,7 +7,11 @@
 # Use descriptive key names to identify each file clearly.
 
 input_data:
-  file: "../data/raw/raw_data_file.csv"
+  demo: "../data/raw/df_final_demo.txt"
+  web_pt1: "../data/raw/df_final_web_data_pt_1.txt"
+  web_pt2: "../data/raw/df_final_web_data_pt_2.txt"
+  roster: "../data/raw/df_final_experiment_clients.txt"
 
 output_data:
-  file: "../data/clean/cleaned_data_file.csv"
+  web_clean: "../data/clean/web_clean.csv"
+  
