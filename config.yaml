@@ -14,4 +14,7 @@ input_data:
 
 output_data:
   web_clean: "../data/clean/web_clean.csv"
+  roster_clean: "../data/clean/roster_clean.csv"
+  
+
   
