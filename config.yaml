@@ -14,7 +14,4 @@ input_data:
 
 output_data:
   web_clean: "../data/clean/web_clean.csv"
-  roster_clean: "../data/clean/roster_clean.csv"
-  
-
-  
+  web_merged: "../data/clean/final_web_data_merged.csv"
