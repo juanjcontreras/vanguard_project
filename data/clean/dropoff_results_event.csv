@@ -1,0 +1,5 @@
+transition,drop_off_test_%,drop_off_control_%,pp(test-control),z_statistic,p_value,significant
+start,13.66,23.48,-9.82,-33.45,2.6719867327277576e-245,Yes
+step_1,12.17,14.16,-2.0,-7.0,2.4833726495911608e-12,Yes
+step_2,9.12,9.63,-0.51,-1.94,0.052266527109238875,No
+step_3,15.02,15.93,-0.92,-2.66,0.007806180019216995,Yes
