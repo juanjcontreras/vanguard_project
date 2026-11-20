@@ -63,9 +63,9 @@ Vanguard, an investment company, redesigned the online process its clients use t
 
 ### Merged tables used in the analysis
 
-- **`df_clients`:** roster joined to demographics (inner join), 50,488 clients.
-- **`final_merge.csv`:** web events joined to `df_clients`, 317,135 event rows, 14 columns. Used for most analyses (funnel, calls, age, gender, balance).
-- **`df_events.csv`:** web events joined to the roster only, 317,235 event rows, 6 columns. Used for time and navigation analyses.
+- `df_clients`**:** roster joined to demographics (inner join), 50,488 clients.
+- `final_merge.csv`**:** web events joined to `df_clients`, 317,135 event rows, 14 columns. Used for most analyses (funnel, calls, age, gender, balance).
+- `df_events.csv`**:** web events joined to the roster only, 317,235 event rows, 6 columns. Used for time and navigation analyses.
 
 ### Relationships
 
@@ -130,7 +130,7 @@ Vanguard, an investment company, redesigned the online process its clients use t
 |---|---|---|
 | Clients who reached `confirm` at least once | 69.3% (18,682 of 26,961) | 65.6% (15,429 of 23,527) |
 
-Test is about 3.7 percentage points higher (z = 8.9, p < 0.001). *Calculated from `final_merge.csv`. Please check this against the team notebooks before submitting.*
+Test is about 3.7 percentage points higher (z = 8.9, p < 0.001). *Calculated from* `final_merge.csv`*. Please check this against the team notebooks before submitting.*
 
 ### Drop-off per step, clients (α = 0.0125)
 
@@ -220,8 +220,8 @@ Each directory contains its own README with additional information about file or
 
 ## 9. Team Members
 
-| Name | Role | Main Contributions |
-|---|---|---|
-| Bindu Madhavi Valmiki | *(add role)* | Drop-off per step (visits and clients) with hypothesis tests, average calls, completion by calls, presentation opening and Sam storyline |
-| Juan | *(add role)* | Time to complete, longest step, restarts, age and gender analysis |
-| Jacob | *(add role)* | High-balance clients with many calls and few logons, tenure vs balance, navigation errors, key findings and recommendations |
+| Name                  | Role           | Main Contributions                                                                                                                       |
+| --------------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| Bindu Madhavi Valmiki | *Data Analyst* | Drop-off per step (visits and clients) with hypothesis tests, average calls, completion by calls, presentation opening and Sam storyline |
+| Juan                  | *Data Analyst* | Time to complete, longest step, restarts, age and gender analysis                                                                        |
+| Jacob                 | *Data Analyst* | High-balance clients with many calls and few logons, tenure vs balance, navigation errors, key findings and recommendations              |
