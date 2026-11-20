@@ -1,0 +1,7 @@
+Measure,Unit,Test,Control,Finding
+Drop-off: start,% of clients at or beyond start,9.1,13.96,Lower in Test; significant
+Drop-off: step_1,% of clients at or beyond step_1,8.08,7.19,Higher in Test; significant
+Drop-off: step_2,% of clients at or beyond step_2,6.26,6.73,No significant difference
+Drop-off: step_3,% of clients at or beyond step_3,11.53,11.94,No significant difference
+Median completion time,seconds per completed visit,251.0,275.0,Shorter in Test
+Possible navigation difficulty,% of clients with at least one indicator,59.37,52.81,Higher in Test; significant

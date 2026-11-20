@@ -1,0 +1,5 @@
+variation,call_status,completion_rate_%
+Test,Zero calls,65.48
+Test,At least one call,70.0
+Control,Zero calls,62.79
+Control,At least one call,66.07
